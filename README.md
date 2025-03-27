@@ -120,3 +120,54 @@ Neural networks are the backbone of deep learning and Generative AI. They are co
 - **Real-time Adaptation**: Used in applications like AI chatbots and recommendation systems.
 
 ---
+# Day 3 - Activation Functions, Types , When to Use , Pros & Cons
+## Activation Functions in Neural Networks
+Activation functions play a crucial role in neural networks by introducing non-linearity, enabling models to learn complex patterns and relationships.
+
+### 🔹 Types of Activation Functions
+
+1️⃣ **Sigmoid Function (📈)**
+   - Formula: \( f(x) = \frac{1}{1 + e^{-x}} \)
+   - Output Range: (0,1)
+   - **Use Case**: Binary classification, probability estimation.
+   - ✅ Advantages: Smooth gradient, good for probability-based outputs.
+   - ❌ Disadvantages: Vanishing gradient problem, slow convergence.
+
+2️⃣ **Tanh Function (📉📈)**
+   - Formula: \( f(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \)
+   - Output Range: (-1,1)
+   - **Use Case**: Hidden layers in feedforward networks.
+   - ✅ Advantages: Zero-centered, better than Sigmoid.
+   - ❌ Disadvantages: Still suffers from vanishing gradient.
+
+3️⃣ **ReLU (Rectified Linear Unit) 🚀**
+   - Formula: \( f(x) = max(0, x) \)
+   - Output Range: [0, ∞)
+   - **Use Case**: CNNs, deep networks, modern architectures.
+   - ✅ Advantages: Prevents vanishing gradient, computationally efficient.
+   - ❌ Disadvantages: Dead neurons issue (dying ReLU problem).
+
+4️⃣ **Leaky ReLU (⚡)**
+   - Formula: \( f(x) = x \) if \( x > 0 \), else \( 0.01x \)
+   - Output Range: (-∞, ∞)
+   - **Use Case**: Alternative to ReLU for avoiding dead neurons.
+   - ✅ Advantages: Solves dying ReLU issue.
+   - ❌ Disadvantages: Not strictly zero-centered.
+
+5️⃣ **Softmax (🔥)**
+   - Formula: \( f(x_i) = \frac{e^{x_i}}{\sum e^{x_j}} \)
+   - Output Range: (0,1), sums to 1.
+   - **Use Case**: Multi-class classification (last layer of NN).
+   - ✅ Advantages: Converts outputs to probabilities.
+   - ❌ Disadvantages: Susceptible to large input values.
+
+### 🔥 Choosing the Right Activation Function
+| Function  | Best For | Pros | Cons |
+|-----------|---------|------|------|
+| Sigmoid 📈 | Binary classification | Probability interpretation | Vanishing gradient |
+| Tanh 📉📈 | Hidden layers | Zero-centered | Still suffers from vanishing gradient |
+| ReLU 🚀 | Deep networks, CNNs | Fast, avoids vanishing gradient | Dead neurons issue |
+| Leaky ReLU ⚡ | Deep networks | Fixes dying ReLU | Not strictly zero-centered |
+| Softmax 🔥 | Multi-class classification | Probability distribution | Susceptible to large inputs |
+
+---
