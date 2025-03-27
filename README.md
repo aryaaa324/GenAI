@@ -35,6 +35,43 @@ VAEs work with an encoder-decoder architecture:
 - **Decoder 🎨**: Reconstructs data from the latent space.
 They use probabilistic methods to generate diverse and smooth outputs.
 
+#### 🏗️ Architecture of GANs
+1. **Generator:**
+   - Takes random noise as input (e.g., Gaussian noise).
+   - Uses deep neural networks (fully connected layers, CNNs, or transformers).
+   - Outputs fake data that resembles real data.
+2. **Discriminator:**
+   - Takes real and fake data as input.
+   - Classifies input as real or fake (binary classification).
+   - Sends feedback to the generator to improve its fake outputs.
+
+**Training Process:**
+- The generator tries to fool the discriminator by producing realistic samples.
+- The discriminator learns to distinguish real from fake samples.
+- This adversarial training continues until the generator produces highly realistic outputs.
+
+### 2️⃣ Variational Autoencoders (VAEs)
+VAEs work with an encoder-decoder architecture:
+- **Encoder 🔍**: Compresses input data into a latent space representation.
+- **Decoder 🎨**: Reconstructs data from the latent space.
+They use probabilistic methods to generate diverse and smooth outputs.
+
+#### 🔍 Architecture of VAEs
+1. **Encoder:**
+   - Compresses input data into a lower-dimensional latent space.
+   - Outputs a probability distribution (mean and variance) instead of a single value.
+2. **Latent Space:**
+   - Represents data in a compressed probabilistic form.
+   - Enables controlled sampling for diverse data generation.
+3. **Decoder:**
+   - Reconstructs data from the latent space representation.
+   - Uses deep neural networks (e.g., CNNs or fully connected layers).
+
+**Training Process:**
+- The encoder maps input to a latent distribution.
+- A sample is drawn from the latent distribution.
+- The decoder reconstructs the input from this sample.
+- The loss function (reconstruction loss + KL divergence) ensures meaningful latent space representations.
 
 ## 🔍 Differences Between GANs and VAEs
 | Feature         | GANs 🎨 | VAEs 📊 |
