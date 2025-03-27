@@ -93,7 +93,7 @@ RLHF is used to fine-tune AI models using human preferences. It helps:
   
 ---
 
-# Day 2 - Neural Networks, Types of Neural Networks, Use of Neural Networks in GenAI
+## Day 2 - Neural Networks, Types of Neural Networks, Use of Neural Networks in GenAI
 ## 🔬 Neural Networks 
 Neural networks are the backbone of deep learning and Generative AI. They are computational models inspired by the human brain, designed to recognize patterns and make intelligent decisions.
 
