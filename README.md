@@ -21,7 +21,6 @@ It enables automation, personalization, and creativity across industries like en
 - **Automated Code Generation** (GitHub Copilot) 💻
 - **Finance & Fraud Detection** 💰
 
----
 
 ## 🔬 Types of Generative AI Algorithms
 ### 1️⃣ Generative Adversarial Networks (GANs)
@@ -36,7 +35,6 @@ VAEs work with an encoder-decoder architecture:
 - **Decoder 🎨**: Reconstructs data from the latent space.
 They use probabilistic methods to generate diverse and smooth outputs.
 
----
 
 ## 🔍 Differences Between GANs and VAEs
 | Feature         | GANs 🎨 | VAEs 📊 |
@@ -47,7 +45,6 @@ They use probabilistic methods to generate diverse and smooth outputs.
 | Stability     | Harder to Train | More Stable |
 | Applications  | Image Generation, Deepfake | Data Reconstruction, Anomaly Detection |
 
----
 
 ## 🤖 Reinforcement Learning from Human Feedback (RLHF)
 RLHF is used to fine-tune AI models using human preferences. It helps:
