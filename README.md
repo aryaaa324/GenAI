@@ -1,4 +1,6 @@
 # Generative AI
+
+# Day 1 - GenAI, Algorithms, Architecture and Applications
 This repository contains the basic concepts of Generative AI and its projects. 
 ## 🤖 Generative AI (GenAI)
 
