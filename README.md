@@ -90,5 +90,33 @@ RLHF is used to fine-tune AI models using human preferences. It helps:
 - Improve model safety and alignment with user expectations.
 - Reduce biases in AI-generated outputs.
 - Make responses more engaging and human-like (e.g., ChatGPT fine-tuning).
+  
+---
+
+## Day 2 - Neural Networks, Types of Neural Networks, Use of Neural Networks in GenAI
+## 🔬 Neural Networks 
+Neural networks are the backbone of deep learning and Generative AI. They are computational models inspired by the human brain, designed to recognize patterns and make intelligent decisions.
+
+## Types of Neural Networks
+### 1️⃣ Feedforward Neural Networks (FNN)
+- The simplest type of neural network.
+- Information moves in one direction (input → hidden layers → output).
+- Used for classification and regression tasks.
+
+### 2️⃣ Convolutional Neural Networks (CNN)
+- Primarily used for image processing.
+- Consists of convolutional layers that extract features from input images.
+- Used in applications like object detection, image synthesis, and facial recognition.
+
+### 3️⃣ Recurrent Neural Networks (RNN)
+- Designed for sequential data processing.
+- Uses loops to retain information from previous steps (memory-like behavior).
+- Applied in tasks like speech recognition, text generation, and time-series forecasting.
+
+## 🔥 Why Use Neural Networks in GenAI?
+- **Pattern Recognition**: They learn patterns from vast datasets to generate realistic outputs.
+- **Creativity**: Enables AI to create new content like text, images, and music.
+- **Data Efficiency**: Helps process large-scale structured and unstructured data.
+- **Real-time Adaptation**: Used in applications like AI chatbots and recommendation systems.
 
 ---
